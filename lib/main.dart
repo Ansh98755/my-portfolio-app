@@ -151,7 +151,7 @@ class PortfolioScreen extends StatelessWidget {
 
   Widget footerSection() {
     return Text(
-      "✨ Created By Dhruv ✨",
+      "✨ Created By Ayush✨",
       style: TextStyle(
         color: Colors.white70,
         fontSize: 14,
