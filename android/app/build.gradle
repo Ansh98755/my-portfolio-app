@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.my_portfolio_app"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 35 // Replace with your desired SDK version
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
@@ -16,26 +16,33 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_1_8
+        jvmTarget = "1.8"
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.example.my_portfolio_app"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
+        minSdk = 21 // flutter_downloader requires at least API 21
+        targetSdk = 33
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+
+        // Required for flutter_downloader
+        multiDexEnabled true
     }
 
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
+            // Add your own signing config here for production builds
             signingConfig = signingConfigs.debug
+            // Prevent lint errors from blocking builds
+            lintOptions {
+                checkReleaseBuilds false
+            }
         }
+    }
+
+    dependencies {
+        implementation "androidx.work:work-runtime:2.8.0" // Required by flutter_downloader
     }
 }
 

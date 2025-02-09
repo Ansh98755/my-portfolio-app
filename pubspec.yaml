@@ -1,20 +1,21 @@
 name: portfolio_maker_app
 description: A mobile application to create and showcase your professional portfolio.
 
-# The following line prevents packages that depend on generative code to pick
-# up regenerated code if that code is added as a dependency to another package that
-# transitively depends on this package.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'none'
 
-# Use with the CupertinoIcons class on iOS, macOS, and watchOS.
-# Use with the Icons class on Android and the web.
 uses-material-design: true
 
 dependencies:
   flutter:
     sdk: flutter
-  image_picker: ^1.1.2  # For selecting an image from the device gallery
+  http: ^0.13.4
+  image_picker: ^1.1.2
   path_provider: ^2.0.11
+  flutter_downloader: ^1.11.4
+  share_plus: ^10.1.4
+  permission_handler: ^10.0.0
+  mockito: ^5.0.0
+  url_launcher: ^6.3.1
 
 dev_dependencies:
   flutter_test:
@@ -25,7 +26,6 @@ environment:
 
 flutter:
   assets:
-    - assets/images/  # Path to your images directory
-
-  # Additional configurations for Flutter (optional)
-  # For example, you could add fonts or custom themes here.
+    - assets/images/bg.jpg
+    - assets/images/default_profile.png
+  uses-material-design: true
