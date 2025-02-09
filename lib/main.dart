@@ -49,7 +49,7 @@ class PortfolioScreen extends StatelessWidget {
             backgroundColor: Colors.white,
             child: CircleAvatar(
               radius: 50,
-              backgroundImage: AssetImage("assets/images/default_profile.png"),
+              backgroundImage: AssetImage("assets/images/img.jpg"),
             ),
           ),
           const SizedBox(width: 20),

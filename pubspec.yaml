@@ -27,7 +27,7 @@ environment:
 flutter:
   assets:
     - assets/images/bg.jpg
-    - assets/images/default_profile.png
+    - assets/images/img.jpg
     - assets/images/sahayak.jpg
     - assets/images/sahayak1.jpg
     - assets/images/sahayak2.jpg
