@@ -28,4 +28,22 @@ flutter:
   assets:
     - assets/images/bg.jpg
     - assets/images/default_profile.png
+    - assets/images/sahayak.jpg
+    - assets/images/sahayak1.jpg
+    - assets/images/sahayak2.jpg
+    - assets/images/sahayak3.jpg
+    - assets/images/sahayak4.jpg
+    - assets/images/mood.jpg
+    - assets/images/mood1.jpg
+    - assets/images/mood2.jpg
+    - assets/images/mood3.jpg
+    - assets/images/mood4.jpg
+    - assets/images/face.png
+    - assets/images/face2.png
+    - assets/images/face3.png
+    - assets/images/face4.png
+    - assets/images/face5.png
+    - assets/images/face6.png
+    - assets/images/face7.png
+    - assets/images/face8.png
   uses-material-design: true

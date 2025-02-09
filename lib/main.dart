@@ -214,13 +214,18 @@ class ProjectDetailScreen extends StatelessWidget {
       ),
       SizedBox(height: 10),
       Text(
-        "Features:\n✔ Real-time bed availability\n✔ Appointment booking\n✔ Secure authentication",
+        "Features:\n✔ Reduces wait times by 40%\n✔ Real-time bed availability\n✔ Appointment booking\n✔ Secure authentication with Firebase & Google Sign-In",
         style: TextStyle(fontSize: 16),
       ),
       SizedBox(height: 15),
-      Image.asset("assets/images/sahayak.png"), // Local Image
+      Image.asset("assets/images/sahayak1.jpg"), // Local Image
+      Image.asset("assets/images/sahayak2.jpg"), // Local Image
+      Image.asset("assets/images/sahayak3.jpg"), // Local Image
+      Image.asset("assets/images/sahayak4.jpg"), // Local Image
+      Image.asset("assets/images/sahayak.jpg"), // Local Image
+
       SizedBox(height: 15),
-      linkButton("View on GitHub", "https://github.com/yourusername/sahayak"),
+      linkButton("View on GitHub", "https://github.com/Ansh98755/sahayak"),
     ],
 
     "AI Mood Tracker & Companion": [
@@ -230,14 +235,50 @@ class ProjectDetailScreen extends StatelessWidget {
       ),
       SizedBox(height: 10),
       Text(
-        "✔ 90% accuracy in mood detection\n✔ Personalized recommendations\n✔ Interactive mood insights",
+        "Features: ✔ 90% accuracy in mood detection\n✔ Personalized recommendations\n✔ Interactive mood insights \n✔Engaging UI & reward system for better mental health",
         style: TextStyle(fontSize: 16),
       ),
       SizedBox(height: 15),
-      Image.network("https://example.com/mood_tracker_image.jpg"), // Online Image
+      Image.asset("assets/images/mood.jpg"),
+      Image.asset("assets/images/mood1.jpg"),
+      Image.asset("assets/images/mood2.jpg"),
+      Image.asset("assets/images/mood3.jpg"),
+      Image.asset("assets/images/mood4.jpg"),
+
       SizedBox(height: 15),
-      linkButton("Download App", "https://playstore.com/mood-tracker"),
+      linkButton("View on Github", "https://github.com/Ansh98755/Expression-Detection-APP.git"),
     ],
+    "Portfolio Maker App":[
+      Text(
+        "Build Stunning Portfolios with Ease! 🚀",
+        style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+      ),
+      SizedBox(height: 10),
+      Text(
+        "Features:\n✔ Made with Flutter for a smooth & fast experience \n✔ Created portfolio in minutes\n✔ User-friendly UI for effortless design",
+        style: TextStyle(fontSize: 16),
+      ),
+      SizedBox(height: 15),
+      linkButton("View on Github", "https://github.com/Ansh98755/my-portfolio-app.git"),
+    ],
+    "Attendance Automation using Face Recognition":[
+      Text(
+        "Features:\n✔ AI-powered face detection for accurate attendance tracking\n✔ Eliminates proxies & manual errors\n✔ Fast, secure & efficient authentication \n✔ Seamless integration for schools & workplaces",
+        style: TextStyle(fontSize: 16),
+      ),
+      SizedBox(height: 15),
+      Image.asset("assets/images/face.png"),
+      Image.asset("assets/images/face2.png"),
+      Image.asset("assets/images/face3.png"),
+      Image.asset("assets/images/face4.png"),
+      Image.asset("assets/images/face5.png"),
+      Image.asset("assets/images/face6.png"),
+      Image.asset("assets/images/face.7png"),
+      Image.asset("assets/images/face8.png"),
+      SizedBox(height: 15),
+      linkButton("View on Github", "https://github.com/Ansh98755/Face_Recognition_System.git"),
+    ],
+
   };
 
   // Function to create clickable link buttons
