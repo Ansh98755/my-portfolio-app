@@ -98,7 +98,7 @@ class PortfolioScreen extends StatelessWidget {
           ),
           infoRow(Icons.email, "ayushmehendiratta3390@gmail.com", Colors.amberAccent),
           infoRow(Icons.phone, "+91 8630847107", Colors.lightGreenAccent),
-          infoRow(Icons.location_pin, "India", Colors.tealAccent),
+          infoRow(Icons.location_pin, " Dehradun,India", Colors.tealAccent),
         ],
       ),
     );
@@ -267,18 +267,21 @@ class ProjectDetailScreen extends StatelessWidget {
         style: TextStyle(fontSize: 16),
       ),
       SizedBox(height: 15),
-      Image.asset("assets/images/face.png"),
-      Image.asset("assets/images/face2.png"),
-      Image.asset("assets/images/face3.png"),
-      Image.asset("assets/images/face4.png"),
-      Image.asset("assets/images/face5.png"),
-      Image.asset("assets/images/face6.png"),
-      Image.asset("assets/images/face.7png"),
-      Image.asset("assets/images/face8.png"),
-      SizedBox(height: 15),
       linkButton("View on Github", "https://github.com/Ansh98755/Face_Recognition_System.git"),
     ],
-
+    "Iris Flower Detection App": [
+      Text(
+        "Detect the type of the Iris Flower🚀",
+        style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+      ),
+      SizedBox(height: 10),
+      Text(
+        "Features:\n✔ Developed a machine learning model to classify Iris flowers into their respective species (Setosa, Versicolor, or Virginica) based on sepal and petal measurements.  \n✔ Achieved 90% accuracy\n✔ User-friendly UI for effortless design \n✔ This project demonstrates my ability to apply machine learning techniques to real-world classification problems.",
+        style: TextStyle(fontSize: 16),
+      ),
+      SizedBox(height: 15),
+      linkButton("View on Github", "https://github.com/Ansh98755/irisflower.git"),
+    ]
   };
 
   // Function to create clickable link buttons
