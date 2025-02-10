@@ -283,7 +283,6 @@ class ProjectDetailScreen extends StatelessWidget {
       linkButton("View on Github", "https://github.com/Ansh98755/irisflower.git"),
     ]
   };
-
   // Function to create clickable link buttons
   static Widget linkButton(String text, String url) {
     return GestureDetector(
