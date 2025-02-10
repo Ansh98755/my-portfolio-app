@@ -7,7 +7,6 @@ void main() {
     debugShowCheckedModeBanner: false,
   ));
 }
-
 class PortfolioScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -290,7 +289,6 @@ class ProjectDetailScreen extends StatelessWidget {
       ),
     );
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -300,7 +298,7 @@ class ProjectDetailScreen extends StatelessWidget {
       ),
       body: Padding(
         padding: EdgeInsets.all(16.0),
-        child: SingleChildScrollView( // Allows scrolling for long content
+        child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: projectDetails[projectName] ?? [Text("No details available.")],
