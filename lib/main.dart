@@ -204,8 +204,6 @@ class ProjectsScreen extends StatelessWidget {
 class ProjectDetailScreen extends StatelessWidget {
   final String projectName;
   ProjectDetailScreen({required this.projectName});
-
-  // Project details map with multiple widgets (Text, Image, Links)
   final Map<String, List<Widget>> projectDetails = {
     "Sahayak: Hospital Bed Booking App": [
       Text(
@@ -283,7 +281,6 @@ class ProjectDetailScreen extends StatelessWidget {
       linkButton("View on Github", "https://github.com/Ansh98755/irisflower.git"),
     ]
   };
-  // Function to create clickable link buttons
   static Widget linkButton(String text, String url) {
     return GestureDetector(
       onTap: () => launchUrl(Uri.parse(url)),
